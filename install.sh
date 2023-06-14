@@ -15,4 +15,4 @@ wget -q https://github.com/Ruzgarefeyavuz/kuloandroidproxy/raw/main/proxy_linux
 sleep 1
 echo -e "${GREEN}Kulo Proxy is now Installed.${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./proxy_linux${ENDCOLOR}"
-chmod +x proxy
+chmod +x proxy_linux
