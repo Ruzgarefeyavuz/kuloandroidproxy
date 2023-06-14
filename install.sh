@@ -1,4 +1,4 @@
-echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
+echo -e "${GREEN}Installinga Proxy...${ENDCOLOR}"
 sleep 1
 if [ -f "proxy_linux" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
