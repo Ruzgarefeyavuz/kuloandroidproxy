@@ -11,7 +11,7 @@ if [ -f "proxy" ]; then
     sleep 1
     echo -e "${GREEN}Getting proxy...${ENDCOLOR}"
 fi
-wget -q https://github.com/Ruzgarefeyavuz/kuloandroidproxy/raw/main/linux_proxy
+wget -q https://github.com/Ruzgarefeyavuz/kuloandroidproxy/raw/main/proxy_linux
 sleep 1
 echo -e "${GREEN}Kulo Proxy is now Installed.${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./linux_proxy${ENDCOLOR}"
