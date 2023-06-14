@@ -1,9 +1,7 @@
 echo -e "${GREEN}Installinga Proxy...${ENDCOLOR}"
-sleep 1
 if [ -f "proxy_linux" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
     rm proxy_linux
-    sleep 1
     echo -e "${GREEN}Getting proxy...${ENDCOLOR}"
 fi
 wget -q https://github.com/Ruzgarefeyavuz/kuloandroidproxy/raw/main/proxy_linux
